@@ -22,8 +22,8 @@ index, length = kmp.SearchGreaterOccurrence(buffer, pattern1) // 15, 7
 ```
 
 ## LZSS Explications
- - [Explications en francais](docs/FR-EXPLICATION.md)
- - [English Explications](docs/EN-EXPLICATION.md)
+ - [Explications en francais](doc/FR-EXPLICATION.md)
+ - [English Explications](doc/EN-EXPLICATION.md)
 
 ## Links
 https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm

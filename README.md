@@ -11,8 +11,8 @@ import "github.com/fbonhomm/Knuth-Morris-Pratt-Algorithm/kmp"
 
 var index, length int
 var buffer = []byte("abc abcdab abcdabcdabde")
-var pattern = []byte("abcdabd")
-var pattern1 = []byte("abcdabdr")
+var pattern = []byte("abcdabd") // 7
+var pattern1 = []byte("abcdabdr") // 8
 
 index = kmp.SearchFirstOccurrence(buffer, pattern) // 15
 index = kmp.SearchFirstOccurrence(buffer, pattern1) // -1

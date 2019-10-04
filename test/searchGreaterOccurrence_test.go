@@ -22,9 +22,7 @@ var _ = Describe("SearchGreaterOccurrence", func() {
 			Expect(length).To(Equal(7))
 			Expect(index).To(Equal(15))
 		})
-	})
 
-	Context("Success", func() {
 		It("with \"abc abcdab abcdabcdabde\" as buffer and \"abr\" as pattern", func() {
 			// Prepare
 			var index, length int
@@ -38,9 +36,7 @@ var _ = Describe("SearchGreaterOccurrence", func() {
 			Expect(length).To(Equal(2))
 			Expect(index).To(Equal(0))
 		})
-	})
 
-	Context("Success", func() {
 		It("with \"abc abcdab abcdabcdabde\" as buffer and \"abc\" as pattern", func() {
 			// Prepare
 			var index, length int

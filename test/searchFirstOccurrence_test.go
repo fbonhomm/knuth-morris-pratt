@@ -34,5 +34,18 @@ var _ = Describe("SearchFirstOccurrence", func() {
 			// Expect
 			Expect(index).To(Equal(-1))
 		})
+
+		It("with \"abc abcdab abcdabcdabde\" as buffer and \"de\" as pattern", func() {
+			// Prepare
+			var index int
+			var buffer = []byte("abc abcdab abcdabcdabde")
+			var pattern = []byte("de")
+
+			// Process
+			index = kmp.SearchFirstOccurrence(buffer, pattern)
+
+			// Expect
+			Expect(index).To(Equal(21))
+		})
 	})
 })

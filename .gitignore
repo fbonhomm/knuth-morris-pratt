@@ -13,3 +13,6 @@
 
 # jetbrain
 .idea
+
+# mac
+.DS_Store

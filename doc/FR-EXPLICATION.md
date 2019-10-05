@@ -4,7 +4,7 @@ Il fait un pré-traitement sur la sous-chaîne en créant un tableau avec les sa
 
 L'algorithme se découpe en 2 parties, une phase de construction du tableau de saut et une phase de recherche.
 
-## Construction de la table de saut
+## Construction de la table de saut [[Code table](../kmp/table.go)]
 Pour "participate in parachute" (24), la table est "-1 0 0 0 0 0 0 -1 0 2 0 0 0 0 0 -1 0 0 3 0 0 0 0 0 0 (25)"
 
 La première lettre est "p", donc a chaque "p", on inscrit -1 dans la table.
@@ -29,7 +29,7 @@ Alors:
 * `0 0 0 0 0` == `chute`
 * `0` le dernier caractère sert un inscrit une combinaison si y'en a une à la fin, donc le tableau fait la taille de la chaine + 1
 
-## Recherche de la sous-chaine
+## Recherche de la sous-chaine [[Code recherche](../kmp/searchFirstOccurrence.go)]
 La recherche est très simple, quand c'est égal à l'incrément l'index de la chaine et l'index de la sous-chaîne.
 
 Quand ce n'est pas égal, on récupère la valeur du tableau avec l'index de la sous-chaîne, cette valeur devient l'index de la sous-chaîne.

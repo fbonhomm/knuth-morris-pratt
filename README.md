@@ -21,7 +21,7 @@ index, length = kmp.SearchGreaterOccurrence(buffer, pattern) // 15, 7
 index, length = kmp.SearchGreaterOccurrence(buffer, pattern1) // 15, 7
 ```
 
-## LZSS Explications
+## Explanations
  - [Explications en francais](doc/FR-EXPLICATION.md)
  - [English Explications](doc/EN-EXPLICATION.md) (coming soon)
 

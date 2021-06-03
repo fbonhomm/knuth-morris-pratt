@@ -35,7 +35,7 @@ index = kmp.Search(buffer, pattern1) // -1
 ```
 
 ## Explanations
- - [English](documentation/explanation.en.md) (coming soon)
+ - [English](documentation/explanation.en.md)
  - [Français](documentation/explanation.fr.md)
 
 ## Links

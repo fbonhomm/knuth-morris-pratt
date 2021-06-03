@@ -1,4 +1,4 @@
-module github.com/fbonhomm/Knuth-Morris-Pratt-Algorithm
+module github.com/fbonhomm/knuth-morris-pratt
 
 go 1.13
 

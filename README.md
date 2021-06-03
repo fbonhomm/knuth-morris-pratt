@@ -23,7 +23,7 @@ go test -v test/
 
 CODE:
 ```go
-import "github.com/fbonhomm/Knuth-Morris-Pratt-Algorithm/kmp"
+import kmp "github.com/fbonhomm/knuth-morris-pratt/source"
 
 var index, length int
 var buffer = []byte("abc abcdab abcdabcdabde")

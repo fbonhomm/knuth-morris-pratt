@@ -1,10 +1,9 @@
 package test
 
 import (
+	kmp "github.com/fbonhomm/knuth-morris-pratt/source"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-
-	"github.com/fbonhomm/Knuth-Morris-Pratt-Algorithm/kmp"
 )
 
 var _ = Describe("Table", func() {

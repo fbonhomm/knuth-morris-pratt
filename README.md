@@ -1,4 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CI](https://github.com/fbonhomm/knuth-morris-pratt/actions/workflows/go.yml/badge.svg?branch=master)](https://github.com/fbonhomm/knuth-morris-pratt/actions/workflows/go.yml)
 
 # Knuth-Morris-Pratt Algorithm
 <strong>[EN]</strong>  
